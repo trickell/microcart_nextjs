@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import Link from 'next/link';
 
 export default function Navbar() {
 
@@ -7,23 +6,23 @@ export default function Navbar() {
         <nav className="navbar">
             <ul className="nav-list">
                 <li>
-                    <Link to="/">MICROFIY</Link>
+                    <Link href="/">MICROFIY</Link>
                 </li>
-                    
+
                 <li>
-                <Link to="profile">Profile</Link>
+                    <Link href="/pages/profile">Profile</Link>
                 </li>
-                    
+
                 <li>
-                <Link to="shopping">Shopping</Link>
+                    <Link href="/pages/shopping">Shopping</Link>
                 </li>
-                    
+
                 <li>
-                <Link to="cart">Cart</Link>
+                    <Link href="/pages/cart">Cart</Link>
                 </li>
-                
+
                 <li>
-                    <Link to="about">About</Link>
+                    <Link href="/pages/about">About</Link>
                 </li>
                 <li>
                     <div className="searchbar">
