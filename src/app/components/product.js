@@ -4,13 +4,13 @@ import { useState, useEffect } from "react";
 const Product = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        //fetch("https://jsonplaceholder.typicode.com/photos")
-        fetch('https://dummyjson.com/products')    
+        fetch("https://jsonplaceholder.typicode.com/photos")
+        // fetch('https://dummyjson.com/products')    
         .then((res) => {
             return res.json();
         })
         .then((data) => {            
-            //data = data.slice(0,50)
+            data = data.slice(0,50)
             console.log(data);
             setProduct(data);
         });
