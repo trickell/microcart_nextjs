@@ -4,12 +4,13 @@ import { useState, useEffect } from "react";
 const Product = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/photos")
+        //fetch("https://jsonplaceholder.typicode.com/photos")
+        fetch('https://dummyjson.com/products')    
         .then((res) => {
             return res.json();
         })
         .then((data) => {            
-            data = data.slice(0,50)
+            //data = data.slice(0,50)
             console.log(data);
             setProduct(data);
         });
@@ -23,8 +24,19 @@ const Product = () => {
                         <a href="#" key={prod.id}>                        
                             <img className="w-full h-full object-cover object-center" src={prod.thumbnailUrl} alt={prod.title} />
                             <div className="antialiased text-sm text-center text-gray-200 font-semibold tracking-wide p-6">
-                                <h1>{prod.title}</h1>
+                                <h3>{prod.title}</h3>
+                                <p className="text-gray-400">Price: $</p>
                             </div>      
+                            <div className="hidden">
+                                <div className="antialiased text-sm text-center text-gray-200 font-semibold tracking-wide p-6 flex">
+                                    <div className="">
+                                        <h3>{prod.title}</h3>
+                                        <img className="" src={prod.url} />"
+                                        <p className="text-gray-400">Price: $</p>
+                                    </div>
+                                    <div className="description"></div>
+                                </div>
+                            </div>
                         </a>                  
                     </div>
                 );
