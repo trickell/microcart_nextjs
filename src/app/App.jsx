@@ -6,10 +6,10 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <>
+    <div className='home-sections'>
       <Header />
       <Home />
-    </>
+    </div>
   );
 };
 

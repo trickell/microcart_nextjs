@@ -67,6 +67,14 @@ li {
   list-style-type: none;
 }
 
+.home-sections {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
 section {
   background-color: gray;
   padding: 25px;
