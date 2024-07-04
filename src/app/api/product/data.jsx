@@ -11,7 +11,8 @@ export default function Data(){
                 "description": "High-quality wireless Bluetooth headphones with noise cancellation and long battery life.",
                 "image_src": "https://example.com/images/wireless-bluetooth-headphones.jpg",
                 "thumbnail_src": "https://example.com/thumbnails/wireless-bluetooth-headphones-thumb.jpg",
-                "tags": ["electronics", "audio", "wireless", "headphones"]
+                "tags": ["electronics", "audio", "wireless", "headphones"],
+                "category": "Audio"
               },
               {
                 "id": 2,
@@ -20,7 +21,8 @@ export default function Data(){
                 "description": "Experience breathtaking 4K Ultra HD resolution with smart features and streaming capabilities.",
                 "image_src": "https://example.com/images/4k-ultra-hd-smart-tv.jpg",
                 "thumbnail_src": "https://example.com/thumbnails/4k-ultra-hd-smart-tv-thumb.jpg",
-                "tags": ["electronics", "tv", "4K", "smart"]
+                "tags": ["electronics", "tv", "4K", "smart"],
+                "category": "Television"
               },
               {
                 "id": 3,
@@ -29,7 +31,8 @@ export default function Data(){
                 "description": "Latest smartphone with 128GB storage, high-resolution camera, and fast performance.",
                 "image_src": "https://example.com/images/smartphone-128gb.jpg",
                 "thumbnail_src": "https://example.com/thumbnails/smartphone-128gb-thumb.jpg",
-                "tags": ["electronics", "smartphone", "mobile", "128GB"]
+                "tags": ["electronics", "smartphone", "mobile", "128GB"],
+                "category": "Mobile"
               },
               {
                 "id": 4,
@@ -38,7 +41,8 @@ export default function Data(){
                 "description": "Compact and powerful portable Bluetooth speaker with deep bass and long battery life.",
                 "image_src": "https://example.com/images/portable-bluetooth-speaker.jpg",
                 "thumbnail_src": "https://example.com/thumbnails/portable-bluetooth-speaker-thumb.jpg",
-                "tags": ["electronics", "audio", "bluetooth", "speaker"]
+                "tags": ["electronics", "audio", "bluetooth", "speaker"],
+                "category": "Audio"
               },
               {
                 "id": 5,
@@ -47,10 +51,12 @@ export default function Data(){
                 "description": "Track your fitness and health with this advanced fitness tracker watch featuring heart rate monitoring.",
                 "image_src": "https://example.com/images/fitness-tracker-watch.jpg",
                 "thumbnail_src": "https://example.com/thumbnails/fitness-tracker-watch-thumb.jpg",
-                "tags": ["electronics", "fitness", "wearable", "health"]
+                "tags": ["electronics", "fitness", "wearable", "health"],
+                "category": "Wearables"
               }
             ]
           }
+          
     )
 
 }
