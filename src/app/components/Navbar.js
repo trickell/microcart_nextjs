@@ -1,28 +1,31 @@
 import Link from 'next/link';
 
-export default function Navbar() {
+
+
+function Navbar () {
 
     return (
         <nav className="navbar">
             <ul className="nav-list">
                 <li>
-                    <Link href="/">MICROFIY</Link>
+                    <Link href="/">
+                        MICROFIY</Link>
                 </li>
-
                 <li>
-                    <Link href="/pages/profile">Profile</Link>
+                    <Link href="./Profile">
+                        Profile</Link>
                 </li>
-
                 <li>
-                    <Link href="/pages/shopping">Shopping</Link>
+                    <Link href="./Shopping">
+                        Shopping</Link>   
                 </li>
-
                 <li>
-                    <Link href="/pages/cart">Cart</Link>
+                    <Link href="./Cart">
+                        Cart</Link>
                 </li>
-
                 <li>
-                    <Link href="/pages/about">About</Link>
+                    <Link href="./About">
+                        About</Link>
                 </li>
                 <li>
                     <div className="searchbar">
@@ -39,3 +42,6 @@ export default function Navbar() {
         </nav>
     )
 };
+
+
+export default Navbar;
