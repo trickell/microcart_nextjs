@@ -1,6 +1,6 @@
 // app/layout.tsx
 import React from 'react';
-import Navbar from './components/Navbar';
+
 // import '../styles/globals.css';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -13,7 +13,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
-        <Navbar />
+        
         <main className="content">{children}</main>
       </body>
     </html>

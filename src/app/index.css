@@ -22,6 +22,10 @@ body {
 ================ */
 nav { @apply flex justify-center; }
 
+.nav-bar {
+  display: block;
+}
+
 .top {
   display: flex;
   justify-content: space-evenly;
