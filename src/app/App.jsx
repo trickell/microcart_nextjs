@@ -1,9 +1,11 @@
-// App.jsx
 import React from 'react';
-const App = ({ children }) => {
+import Home from './/pages/home/home';
+
+
+function App() {
   return (
     <>
-      <main>{children}</main>
+      <Home />
     </>
   );
 };
