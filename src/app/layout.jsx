@@ -1,3 +1,6 @@
+import App from "./App";
+import "./globals.css";
+import "./index.css";
 
 
 function RootLayout() {
@@ -11,7 +14,7 @@ function RootLayout() {
       </head>
       <body>
 
-    
+      <App />
 
         
       </body>

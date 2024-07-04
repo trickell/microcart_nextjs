@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './pages/home/page';
 import Header from './components/Header'; 
-import App from './App';
+
 
 
 
