@@ -12,19 +12,19 @@ function Navbar () {
                         MICROFIY</Link>
                 </li>
                 <li>
-                    <Link href="./Profile">
+                    <Link href="/pages/profile">
                         Profile</Link>
                 </li>
                 <li>
-                    <Link href="./Shopping">
+                    <Link href="/pages/shopping">
                         Shopping</Link>   
                 </li>
                 <li>
-                    <Link href="./Cart">
+                    <Link href="/pages/cart">
                         Cart</Link>
                 </li>
                 <li>
-                    <Link href="./About">
+                    <Link href="/pages/about">
                         About</Link>
                 </li>
                 <li>
