@@ -2,10 +2,10 @@ import React from 'react';
 
 function Signup() {
   return (
-    <section class="section">
-      <div class="Signup">
+    <section className="section">
+      <div className="Signup">
         <h1>Signup today!</h1>
-        <button class="sign-up">
+        <button className="sign-up">
           Create Account
         </button>
       </div>
