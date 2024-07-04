@@ -1,10 +1,16 @@
-import React from 'react';
+"use client";
+import React, {Component} from 'react';
 import Navbar from './Navbar';
+import Link from 'next/link';
 
-export default function Header() {
-  return ( 
-  <header>
-    <Navbar />
-  </header>
-  )
+function Header() {
+  
+    return (
+      <div>
+      <Navbar></Navbar>
+      </div>
+      
+    );
 };
+
+export default Header;

@@ -1,24 +1,23 @@
-import App from "./App";
+import Header from "./components/Header";
 import "./globals.css";
 import "./index.css";
 
 
-function RootLayout() {
+const RootLayout = ({props}) => {
   return (
-    <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <title>Create Next App</title>
-        
-       
-      </head>
-      <body>
+      <html>
+        <body>
+          <div>
 
-      <App />
-
+          <Header></Header>
+          {props}
+          
+          
+        </div>
+        </body>
+      </html>
         
-      </body>
-    </html>
+    
   );
 };
 

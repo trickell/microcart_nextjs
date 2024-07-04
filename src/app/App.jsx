@@ -1,6 +1,6 @@
 import React from 'react';
+import RootLayout from './layout';
 import Home from './pages/home/page';
-import Header from './components/Header'; 
 
 
 
@@ -8,13 +8,19 @@ import Header from './components/Header';
 
 function App() {
   return (
- 
-    <div className='home-sections'>
-
-      <Header />
-      <Home />
-    </div>
+    <RootLayout>...
+    
+    </RootLayout>
   );
 };
+
+export async function getStaticPaths() {
+  return {
+    props: {
+      title: "Home",
+      description: "Home page",
+    },
+  };
+}
 
 export default App;
